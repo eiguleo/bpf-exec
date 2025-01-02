@@ -1,5 +1,5 @@
 # compile
-clang -o get-index get-index.c
+clang -o get-index get-index.c  
 clang -O2 -Wall -target bpf -c xdp-example.c -o xdp-example.o
 
 # get interface index
